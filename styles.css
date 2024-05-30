@@ -16,6 +16,7 @@
 }
 
 body {
+    min-width: 420px;
   background-color: white;
   color: var(--dark-font);
   text-align: center;
@@ -124,4 +125,14 @@ h1 {
 #reset-game-btn {
   display: none;
   margin: 20px auto;
+}
+
+
+@media only screen and (max-width: 640px) {
+    #computer-hand, #user-hand {
+        max-width: 200px;
+    }
+    .table {
+        gap: 0;
+    }
 }
