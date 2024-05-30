@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+  --dark-font: #2e2e2e;
+  --light-font: #555555;
+  --bg-yellow: #ffde72;
+  --bg-green: #73dd7f;
+  --bg-red: #fb8f8f;
+}
+
+body {
+  background-color: white;
+  color: var(--dark-font);
+  text-align: center;
+}
+
+h1 {
+  margin: 15px 0 20px;
+}
+
+.table {
+    gap: 2rem;
+    justify-content: center;
+    margin: auto;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: white;
+    border-radius: .5rem;
+    padding: .8rem 3rem;
+    text-transform: uppercase;
+    box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px, rgba(45, 35, 66, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    touch-action: manipulation;
+    transition: box-shadow .15s, transform .15s;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+}
+
+.btn:hover{
+    box-shadow: rgba(45, 35, 66, 0.2) 0 4px 8px, rgba(45, 35, 66, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.btn-hand {
+    opacity: 20%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.btn-hand:hover {
+  opacity: 30%;
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.score-container {
+    display: flex;
+    font-size: .8rem;
+    font-weight: 400;
+    gap: 10%;
+    justify-content: center;
+    text-transform: uppercase;
+
+}
+
+.options-container p{
+    margin-bottom: 1rem;
+}
+
+.score-container-item{
+    padding: 1rem;
+    width: 150px;
+}
+
+.score {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#results-msg {
+    border-radius: .5rem;
+    font-size: 14px;
+    margin: 2rem auto;
+    max-inline-size: fit-content;
+    padding: .5em 1.5rem;
+}
+
+.results-container {
+    border-radius: 1rem;
+    font-weight: 300;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#winner-msg {
+  margin-top: 1rem;
+}
+
+#reset-game-btn {
+  display: none;
+  margin: 20px auto;
+}
