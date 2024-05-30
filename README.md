@@ -1,14 +1,14 @@
-# Rock, Paper, Scissors Game - README
+# Rock, Paper, Scissors Game ✊✌️🖐️ by @anabeeella
 
-## Introduction:
+## 📖 Introduction:
 
 Welcome to my enhanced Rock, Paper, Scissors game! This project originated from a freeCodeCamp(\*) course, and I've added several new styles to improve the user experience and interface.
 
-## Project Overview:
+## ✌️ Project Overview:
 
-This mini game allows users to play Rock, Paper, Scissors against the computer. With a focus on improving the visual appeal and user interaction, this project demonstrates how thoughtful design can enhance a classic game's enjoyment.
+This mini-game allows users to play Rock, Paper, and Scissors against the computer. With a focus on improving the visual appeal and user interaction, this project demonstrates how thoughtful design can enhance a classic game's enjoyment.
 
-## Creation Process:
+## ✨ Creation Process:
 
 ### Planning:
 
@@ -33,7 +33,7 @@ This mini game allows users to play Rock, Paper, Scissors against the computer. 
 
 Deployed the game to a web server, making it accessible for everyone to play.
 
-## Future Enhancements:
+## 🚀 Next steps:
 
 - Add a delay between selection and result display.
 - Implement hand movement animations during the waiting period.
@@ -41,6 +41,6 @@ Deployed the game to a web server, making it accessible for everyone to play.
 - Add victory and defeat sounds.
 - Introduce a confetti animation when the user wins.
 
-## Conclusion:
+## 👩🏽‍💻 Conclusion:
 
 This enhanced Rock, Paper, Scissors game demonstrates how thoughtful design and user experience improvements can make a classic game more engaging. Check out the live game here: []. Enjoy playing and feel free to contribute!
