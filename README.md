@@ -43,4 +43,4 @@ Deployed the game to a web server, making it accessible for everyone to play.
 
 ## 👩🏽‍💻 Conclusion:
 
-This enhanced Rock, Paper, Scissors game demonstrates how thoughtful design and user experience improvements can make a classic game more engaging.  [[Check out the live game here:]](https://rock-paper-scissors-by-anabeeella.netlify.app/). Enjoy playing and feel free to contribute!
+This enhanced Rock, Paper, Scissors game demonstrates how thoughtful design and user experience improvements can make a classic game more engaging.  [Check out the live game here](https://rock-paper-scissors-by-anabeeella.netlify.app/). Enjoy playing and feel free to contribute!
